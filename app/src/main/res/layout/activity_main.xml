@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".MainActivity"
+    android:alpha="0.8"
+    android:background="@drawable/pc_backimg"
+    android:orientation="vertical">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/tool_bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/purple_700"
+        android:elevation="6dp"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Light">
+        <TextView
+            android:id="@+id/text1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Computer Technology"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            />
+    </androidx.appcompat.widget.Toolbar>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingVertical="20dp"
+        android:text="Computers Technology"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:textAllCaps="true"
+        android:background="@color/cardview_light_background"
+        android:layout_gravity="center"
+        android:textColor="@color/black"
+        android:gravity="center"/>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/pcdescription"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+android:layout_marginStart="16sp"
+            android:textStyle="normal"
+            style="@style/TextAppearance.MaterialComponents.Subtitle1"
+            android:layout_marginEnd="16sp"
+            android:layout_marginTop="120dp"
+            android:text="@string/pc_desk"
+            android:lineHeight="30sp"
+            android:textColorHighlight="@color/white"
+            android:textColor="@color/black"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/exploreBrand"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Explore New Brand"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.558"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/pcdescription"
+            app:layout_constraintVertical_bias="0.777" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</LinearLayout>

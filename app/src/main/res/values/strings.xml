@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Group16</string>
+    <string name="pc_desk">The latest computer science trends include artificial intelligence, edge computing, and quantum computing. IT professionals are also knowledgeable about developments in robotics and cybersecurity. What is the latest technology in computer? Quantum computers are now a multitude times faster than regular computers and huge brands like Splunk, Honeywell, Microsoft, AWS, Google and many others are now involved in making innovations in the field of Quantum Computing.</string>
+    <string name="pc_d">New Computer Technology</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
